@@ -1,0 +1,44 @@
+*{border:1px solid red;
+margin:0;
+padding:0;}
+
+.nav-header{background-color: #1F2937;
+color:white;
+display:flex;
+justify-content: space-between;
+}
+
+ul{list-style-type: none;
+display:flex;
+gap:10px;}
+
+img{height:200px;
+width:350px;
+display:flex;
+flex-direction: row;
+margin-top: 25px;}
+
+.first-content{display:flex;
+justify-content: space-between;
+align-items: center;}
+
+.nobubio{display:flex;
+flex-direction: column;
+width:30%;
+}
+
+button{width:75px;
+margin-top:10px;}
+
+.master-container{margin:0 auto;
+width:70vw;
+padding:0 15vw}
+
+#top-nobu-section{background-color: plum;}
+
+h1{font-size:48px;
+color:#F9FAF8;
+}
+
+.header-logo{font-size:24px;
+color:#F9FAF8;}
