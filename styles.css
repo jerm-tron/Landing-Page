@@ -2,7 +2,12 @@
 margin:0;
 padding:0;}
 
-.nav-header{background-color: #1F2937;
+body{font-family:'roboto', sans-serif;}
+
+/* Header */
+
+
+.nav-header{background-color:#1F2937 ;
 color:white;
 display:flex;
 justify-content: space-between;
@@ -10,21 +15,26 @@ justify-content: space-between;
 
 ul{list-style-type: none;
 display:flex;
-gap:10px;}
+gap:10px;
+margin-right:60px;}
+
+/*Hero content */
 
 img{height:200px;
 width:350px;
 display:flex;
 flex-direction: row;
-margin-top: 25px;}
+margin-top: 25px;
+margin-right:50px;}
 
 .first-content{display:flex;
 justify-content: space-between;
-align-items: center;}
+align-items: center;
+padding:50px 50px}
 
 .nobubio{display:flex;
 flex-direction: column;
-width:30%;
+width:50%;
 }
 
 button{width:75px;
@@ -34,11 +44,48 @@ margin-top:10px;}
 width:70vw;
 padding:0 15vw}
 
-#top-nobu-section{background-color: plum;}
+#top-nobu-section{background-color: #1F2937;}
 
 h1{font-size:48px;
 color:#F9FAF8;
 }
 
 .header-logo{font-size:24px;
-color:#F9FAF8;}
+color:#F9FAF8;
+margin-left:40px}
+
+.hero-text{font-size:18px;
+color: #e5e7eb;}
+
+button{background-color: #3882f6;
+padding:3px;
+border-radius:6px;}
+
+/* Second section */
+
+h2{text-align: center;}
+
+.squares{display:flex;
+width:100%;
+padding-bottom:50px;
+}
+
+.square{display:flex;
+    justify-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.square > img { margin-left:40px;
+    height: 150px;
+width:150px;
+border-radius: 10px;}
+
+.square > p {text-align: center;}
+h2{font-size:36px;
+    padding:10px 0;
+}
+
+/* Quote Section */
+
+
