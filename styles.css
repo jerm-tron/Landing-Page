@@ -1,4 +1,4 @@
-*{border:1px solid red;
+*{/* border:1px solid red; */
 margin:0;
 padding:0;}
 
@@ -15,17 +15,18 @@ justify-content: space-between;
 
 ul{list-style-type: none;
 display:flex;
-gap:10px;
+gap:15px;
 margin-right:60px;}
 
 /*Hero content */
 
 img{height:200px;
-width:350px;
+width:400px;
 display:flex;
 flex-direction: row;
 margin-top: 25px;
-margin-right:50px;}
+margin-right:5px;
+margin-bottom:30px;}
 
 .first-content{display:flex;
 justify-content: space-between;
@@ -37,7 +38,9 @@ flex-direction: column;
 width:50%;
 }
 
-button{width:75px;
+button{ font-size:15px;
+    color:white;
+    width:75px;
 margin-top:10px;}
 
 .master-container{margin:0 auto;
@@ -87,5 +90,48 @@ h2{font-size:36px;
 }
 
 /* Quote Section */
+
+.saying{font-size:36px;
+padding:30px;
+margin-left:50px;}
+
+.quote{padding:60px;
+display:flex;
+flex-wrap: wrap;}
+
+.name{width:100%;
+text-align: end;
+margin-right:55px;}
+
+.quote-container{margin:0 auto;
+    width:70vw;
+    padding:0 15vw;
+background-color:#e5e7eb}
+    
+/* Call to action */
+
+.action{display:flex;
+padding:60px;
+justify-content: center;}
+
+.inside-action{padding:40px;
+width:700px;
+border-radius: 10px;
+line-height: 1px;
+background-color: #3882f6;
+color:white;}
+
+.sign-up{margin-left:100px;
+border:2px solid white;
+margin-bottom:-5px}
+
+/* Footer */
+
+.copyright{background:#1F2937;
+text-align: center;
+color:white;
+padding:15px;
+font-size:10px;}
+
 
 
